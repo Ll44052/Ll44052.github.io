@@ -1,0 +1,118 @@
+#back {
+	background-image: url(back.PNG);
+	background-position: center;
+	background-size: cover;
+}
+
+header {
+	width: 100%;
+	background-color: green;
+	border: solid;
+	background-position: top;
+	height: 100px;
+	text-align: center;
+}
+
+.logo {
+	margin-left: 0px;
+	margin-top: -45px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	float: left;
+}
+
+.HeadText {
+	font-size: 40px;
+	margin-top: 0px;
+	margin-left: 140px;
+	font-family: fantasy;
+	font-weight: bold;
+	font-style: italic;
+	max-width: 960px;
+}
+
+nav {
+	width: 55%;
+	max-width: 960px;
+	height: 40px;
+	background-color: white;
+	margin-left: auto;
+	margin-top: auto;
+	border: solid;
+	bordercolor: black;
+
+}
+
+nav a {
+	text-decoration: none;
+	color: green;
+	margin: 100px;
+	font-size: 20px;
+	margin-bottom: auto;
+	font-family: fantasy;
+	font-weight: normal;
+	font-style: normal;
+	max-width: 960px;
+}
+
+
+.block {
+	background-color: #ADFF2F;
+	width: 1080px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+}
+
+.block ul {
+	text-align: left;
+}
+
+
+.name {
+	font-style: italic;
+}
+
+table {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+	width: 800px;
+	height: 300px;
+	border: solid;
+	border-color: #808000;
+}
+
+
+td {
+	border: solid;
+	border-width: 2px;
+	border-color: black;
+}
+
+th {
+	border: solid;
+	border-width: 1px;
+	border-color: #CD5C5C;
+
+}
+
+tr {
+	background-color: #66CDAA;
+}
+
+.chcolumn {
+	background-color: #8FBC8F;
+}
+
+footer {
+	width: 100%;
+	background-color: green;
+	border: solid;
+	background-position: bottom;
+	height: 50px;
+	text-align: center;
+}
