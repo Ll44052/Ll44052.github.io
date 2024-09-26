@@ -1,0 +1,289 @@
+#back {
+  background-image: url(back.PNG);
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+header {
+  display: flex;
+  flex-direction: row;
+  order: 1;
+  flex: 1;
+  background-color: green;
+  border: solid;
+  background-position: top;
+  height: 100px;
+  text-align: center;
+}
+
+#osnova {
+  display: flex;
+  flex-direction: column;
+  order: 2;
+}
+
+.logo {
+  margin-left: 0px;
+  padding-top: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  float:left;
+}
+
+.HeadText {
+  font-size: 40px;
+  margin-top: 40px;
+  margin-left: 140px;
+  font-family: fantasy;
+  font-weight: bold;
+  font-style: italic;
+  max-width: 960px;
+}
+
+.block {
+  width: 100%;
+  background-color: #ADFF2F;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+}
+
+.mobile {
+   flex: 1;
+   order: 1;
+   width: 100%;
+   height:40px;
+   background-color:white;
+   margin-left:auto;
+   margin-top:auto;
+   border: solid;
+   bordercolor: black;
+   width: 100%;
+   background-color: #ADFF2F;
+   text-align: center;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 50px;
+}
+
+nav a{
+  text-decoration: none;
+  color: green;
+  margin: 10px;
+  font-size: 20px;
+  margin-bottom: auto;
+  font-family: fantasy;
+  font-weight: normal;
+  font-style: normal;
+  max-width: 960px;
+}
+
+.desk {
+  display: none;
+}
+
+footer {
+  display: flex;
+  order: 3;
+  text-align: center;
+  background-color: green;
+  border: solid;
+  background-position: bottom;
+  height: 50px;
+}
+
+
+
+.block ul {
+  text-align: left;
+}
+
+
+.name {
+  font-style: italic;
+}
+
+
+
+#taable {
+  flex: 1;
+  order: 2;
+}
+
+#glinks {
+  flex: 1;
+  order: 3;
+}
+
+#form {
+  flex: 1;
+  order: 4;
+}
+
+table{
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    width: 800px;
+    height: 300px;
+    border: solid;
+    border-color: #808000;
+}
+
+
+
+td {
+  border: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+th {
+  border: solid;
+  border-width: 1px;
+  border-color: #CD5C5C;
+
+}
+
+tr {
+  background-color: #66CDAA;
+}
+
+.chcolumn {
+  background-color: #8FBC8F;
+}
+
+@media screen and (min-width: 1000px) {
+
+  .mobile {
+    display: none;
+  }
+  .desk {
+    display: block;
+  }
+
+  #osnova {
+    display: block;
+  }
+
+  header {
+    display: block;
+  	width: 100%;
+  	background-color: green;
+  	border: solid;
+  	background-position: top;
+  	height: 100px;
+  	text-align: center;
+  }
+
+  .logo {
+  	margin-left: 0px;
+  	margin-top: -45px;
+  	width: 100px;
+  	height: 100px;
+  	border-radius: 50%;
+  	float: left;
+  }
+
+  .HeadText {
+  	font-size: 40px;
+  	margin-top: 0px;
+  	margin-left: 140px;
+  	font-family: fantasy;
+  	font-weight: bold;
+  	font-style: italic;
+  	max-width: 960px;
+  }
+
+  nav {
+  	width: 55%;
+  	max-width: 960px;
+  	height: 40px;
+  	background-color: white;
+  	margin-left: auto;
+  	margin-top: auto;
+  	border: solid;
+  	bordercolor: black;
+
+  }
+
+  nav a {
+  	text-decoration: none;
+  	color: green;
+  	margin: 100px;
+  	font-size: 20px;
+  	margin-bottom: auto;
+  	font-family: fantasy;
+  	font-weight: normal;
+  	font-style: normal;
+  	max-width: 960px;
+  }
+
+
+  .block {
+  	background-color: #ADFF2F;
+  	width: 1080px;
+  	text-align: center;
+  	margin-right: auto;
+  	margin-left: auto;
+  	margin-top: 50px;
+  }
+
+  .block ul {
+  	text-align: left;
+  }
+
+
+  .name {
+  	font-style: italic;
+  }
+
+  table {
+  	margin-top: 0px;
+  	margin-right: auto;
+  	margin-left: auto;
+  	margin-bottom: 50px;
+  	width: 800px;
+  	height: 300px;
+  	border: solid;
+  	border-color: #808000;
+  }
+
+
+  td {
+  	border: solid;
+  	border-width: 2px;
+  	border-color: black;
+  }
+
+  th {
+  	border: solid;
+  	border-width: 1px;
+  	border-color: #CD5C5C;
+
+  }
+
+  tr {
+  	background-color: #66CDAA;
+  }
+
+  .chcolumn {
+  	background-color: #8FBC8F;
+  }
+
+  footer {
+    display: block;
+  	width: 100%;
+  	background-color: green;
+  	border: solid;
+  	background-position: bottom;
+  	height: 50px;
+  	text-align: center;
+  }
+
+}
