@@ -9,12 +9,44 @@
     <h1 style="margin-left: auto; margin-right: auto;">Задача №6</h1>
     <div style="display: flex; flex-direction: column; margin-left: auto; margin-right: auto; background-color: #DD4E40; width: 60%;">
       <select id="listProduct" style="margin-left: auto; margin-right: auto; margin-top: 20px; background-color: #E69A93;">
-        <option value="0">Помидор 20р</option>
-        <option value="1">Огурец 15р</option>
-        <option value="2">Картошка 10р</option>
+        <option value="c0">Помидор 20р</option>
+        <option value="c1">Огурец 15р</option>
+        <option value="c2">Картошка 10р</option>
       </select>
       <input id="field" placeholder="Введите колличество товара" style=" margin-left: auto; margin-right: auto; margin-top: 20px; background-color: #E69A93;">
-      <button id="my-button" style="margin-left: auto; margin-top: 40px; margin-right: auto; background-color:#E69A93;">Посчитать</button>
+      <div id="servBlock" style="display: flex; flex-direction: column;">
+          <h4 style="display: flex; margin-right: auto; margin-left: auto;"> Услуга: </h4>
+          <div style="display: flex; flex-direction: column;  margin-left: auto; margin-right: auto;">
+              <label style="display: flex;"><input type="radio"
+                  name="RB" value="boarding">
+                  Посадка</label>
+              <label style="display: flex;"><input type="radio"
+                  name="RB" value="delivery">
+                  Доставка</label>
+              <label style="display: flex;"><input type="radio"
+                  name="RB" value="pickup">
+                  Самовывоз</label>
+          </div>
+      </div>
+      <div id="optBlock" style="display: none; flex-direction: column;">
+          <h4 style="display: flex; margin-right: auto; margin-left: auto;"> Сорт: </h4>
+          <select id="varList" style="display: flex; margin-left: auto; margin-right: auto; background-color: #E69A93;">
+              <option value="sort1">Амур</option>
+              <option value="sort2">Мурашка</option>
+          </select>
+      </div>
+      <div id="propBlock" style="display: none; flex-direction: column; margin-left: auto; margin-right: auto;">
+          <h4 style="display: flex; margin-right: auto; margin-left: auto;"> Дополнительные пожелания: </h4>
+          <div style="display: flex; flex-direction: column;">
+              <label style="display: flex; margin-left: auto; margin-right: auto;"><input type="checkbox"
+                  name="cbProp" value="washed">
+                  Мытый</label>
+              <label style="display: flex; margin-left: auto; margin-right: auto;"><input type="checkbox"
+                  name="cbProp" value="large">
+                  Крупный</label>
+          </div>
+      </div>
+
       <p style="margin-left: auto; margin-right: auto;">Результат: </p>
       <div id="result" style="margin-left: auto; margin-right: auto;"></div>
     </div>
