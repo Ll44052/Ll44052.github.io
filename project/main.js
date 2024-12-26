@@ -134,7 +134,7 @@ $(document).ready(function(){
             },
             data: serializedData,
             type: 'POST',
-            url: "https://formcarry.com/s/GIBUnfMHYgB"
+            url: "https://formcarry.com/s/ebU_IzXXYtq"
         });
     });
 });
